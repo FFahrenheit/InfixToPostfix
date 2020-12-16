@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ivan_/OneDrive/Escritorio/EDA 1/Proyecto/LDL.h
+iostream
+-
+stdexcept
+-
+memory
+-
+
+C:/Users/ivan_/OneDrive/Escritorio/EDA 1/Proyecto/Pila.h
+iostream
+-
+stdexcept
+-
+LDL.h
+C:/Users/ivan_/OneDrive/Escritorio/EDA 1/Proyecto/LDL.h
+
+C:/Users/ivan_/OneDrive/Escritorio/EDA 1/Proyecto/Postfijo.h
+iostream
+-
+Pila.h
+C:/Users/ivan_/OneDrive/Escritorio/EDA 1/Proyecto/Pila.h
+
+C:/Users/ivan_/OneDrive/Escritorio/EDA 1/Proyecto/main.cpp
+iostream
+-
+Postfijo.h
+C:/Users/ivan_/OneDrive/Escritorio/EDA 1/Proyecto/Postfijo.h
+
