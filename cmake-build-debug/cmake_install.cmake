@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ivan_/OneDrive/Escritorio/EDA 1/Proyecto
+# Install script for directory: C:/Users/ivan_/OneDrive/Documentos/INGENIERIA/2020B/EDA 1/Proyecto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/ivan_/OneDrive/Escritorio/EDA 1/Proyecto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/ivan_/OneDrive/Documentos/INGENIERIA/2020B/EDA 1/Proyecto/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

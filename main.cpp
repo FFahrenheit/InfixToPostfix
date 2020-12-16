@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    string input,opc;
+    string input;
     do
     {
         cout << "Ingrese la expresion infija a convertir en postfija: ";
