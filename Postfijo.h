@@ -98,8 +98,7 @@ string Postfijo::infijoAPostfijo(const string &cadena)
 
 bool Postfijo::isOperator(char c)
 {
-    string symbols = "+-*/^";
-    return symbols.find(c) != string::npos;
+    return precedence(c) != 0;
 }
 
 int Postfijo::precedence(char c)
